@@ -1,90 +1,66 @@
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
+import Link from 'next/link'
 import styles from './page.module.css'
 
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.description}>
+      <div>
+        <h1>This Page will Show many different examples of JavaScript</h1>
+
+          <br />
+          <br />
+
+        <h1>JavaScript Keywords</h1>
+        <br />
         <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.jsx</code>
+        JavaScript statements often start with a keyword to identify the JavaScript action to be performed.
+        <br />
+        Our Reserved Words Reference lists all JavaScript keywords.
+        <br />
+        Here is a list of some of the keywords you will learn about in this tutorial:
         </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+        <br />
+        <h4 style={{backgroundColor: 'lightyellow'}}>JavaScript keywords are reserved words. Reserved words cannot be used as names for variables.</h4>
+        <br />
+
+        <div className={styles.tableContent}>
+          <table>
+            <td>
+              <tr><strong>Keyword&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Description</strong></tr>
+              <tr>var&nbsp;&nbsp;&nbsp;&nbsp; -	&nbsp;&nbsp;&nbsp;&nbsp;Declares a variable</tr>
+              <tr>let&nbsp;&nbsp;&nbsp;&nbsp; -	&nbsp;&nbsp;&nbsp;&nbsp;Declares a block variable</tr>
+              <tr>const&nbsp;&nbsp;&nbsp;&nbsp; -	&nbsp;&nbsp;&nbsp;&nbsp;Declares a block constant</tr>
+              <tr>if&nbsp;&nbsp;&nbsp;&nbsp; -	&nbsp;&nbsp;&nbsp;&nbsp;Marks a block of statements to be executed on a condition</tr>
+              <tr>switch&nbsp;&nbsp;&nbsp;&nbsp; -	&nbsp;&nbsp;&nbsp;&nbsp;Marks a block of statements to be executed in different cases</tr>
+              <tr>for&nbsp;&nbsp;&nbsp;&nbsp; -	&nbsp;&nbsp;&nbsp;&nbsp;Marks a block of statements to be executed in a loop</tr>
+              <tr>function&nbsp;&nbsp;&nbsp;&nbsp; -	&nbsp;&nbsp;&nbsp;&nbsp;Declares a function</tr>
+              <tr>return&nbsp;&nbsp;&nbsp;&nbsp; -	&nbsp;&nbsp;&nbsp;&nbsp;Exits a function</tr>
+              <tr>try&nbsp;&nbsp;&nbsp;&nbsp; -	&nbsp;&nbsp;&nbsp;&nbsp;Implements error handling to a block of statements</tr>
+            </td>
+          </table>
         </div>
-      </div>
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-        <div className={styles.thirteen}>
-          <Image src="/thirteen.svg" alt="13" width={40} height={31} priority />
+        <br />
+
+        <div className={styles.pagesLinks}>
+          <ul>
+            <li><Link href='/WhatCanDo'>What JavaScript Can Do?</Link></li>
+            <li><Link href='/FunctionsandEvents'>JavaScript Functions and Events</Link></li>
+            <li><Link href='/ExternalJavascript'>External Javascript</Link></li>
+            <li><Link href='/JavaScriptOutput'>JavaScript Output</Link></li>
+            <li><Link href='/JavaScriptStatements'>JavaScript Statements</Link></li>
+            <li><Link href='/JavaScriptSyntax'>JavaScript Syntax</Link></li>
+            <li><Link href='/JavaScriptComments'>JavaScript Comments</Link></li>
+            <li><Link href='/JavaScriptVariables'>JavaScript Variables</Link></li>
+            <li><Link href='/JavaScriptLet'>JavaScript Let</Link></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
         </div>
-      </div>
 
-      <div className={styles.grid}>
-        <a
-          href="https://beta.nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
       </div>
     </main>
   )
