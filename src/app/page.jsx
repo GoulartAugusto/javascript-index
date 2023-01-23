@@ -55,6 +55,10 @@ export default function Home() {
             <li><Link href='/JavaScriptVariables'>JavaScript Variables</Link></li>
             <li><Link href='/JavaScriptLet'>JavaScript Let</Link></li>
             <li><Link href='/JavaScriptConst'>JavaScript Const</Link></li>
+            <li><Link href='/JavaScriptOperators'>JavaScript Operators</Link></li>
+            <li><Link href='/JavaScriptArithmetic'>JavaScript Arithmetic</Link></li>
+            <li><Link href='/JavaScriptAssignment'>JavaScript Assignment</Link></li>
+            <li><Link href='/JavaScriptDataTypes'>JavaScript Data Types</Link></li>
             <li></li>
             <li></li>
             <li></li>
