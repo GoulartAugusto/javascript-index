@@ -54,7 +54,7 @@ export default function Home() {
             <li><Link href='/JavaScriptComments'>JavaScript Comments</Link></li>
             <li><Link href='/JavaScriptVariables'>JavaScript Variables</Link></li>
             <li><Link href='/JavaScriptLet'>JavaScript Let</Link></li>
-            <li></li>
+            <li><Link href='/JavaScriptConst'>JavaScript Const</Link></li>
             <li></li>
             <li></li>
             <li></li>
