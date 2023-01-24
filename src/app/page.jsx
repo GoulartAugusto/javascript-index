@@ -59,7 +59,7 @@ export default function Home() {
             <li><Link href='/JavaScriptArithmetic'>JavaScript Arithmetic</Link></li>
             <li><Link href='/JavaScriptAssignment'>JavaScript Assignment</Link></li>
             <li><Link href='/JavaScriptDataTypes'>JavaScript Data Types</Link></li>
-            <li></li>
+            <li><Link href='/JavaScriptFunctions'>JavaScript Functions</Link></li>
             <li></li>
             <li></li>
           </ul>
