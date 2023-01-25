@@ -5,6 +5,10 @@ import Image from 'next/image';
 import Car from '../../public/objectExplained.gif';
 
 const JavaScriptObjects = () => {
+
+    function find_max(nums) {
+        let max_num = Number
+    }
   return (
     <main className={styles.main}>
         <Link href='/'>Homepage</Link>
@@ -390,10 +394,6 @@ const JavaScriptObjects = () => {
         <br />
 
         <p>Avoid <code style={{color: 'blue'}}>String</code>, <code style={{color: 'blue'}}>Number</code>, and <code style={{color: 'blue'}}>Boolean</code> objects. They complicate your code and slow down exection speed.</p>
-
-
-
-
     </main>
   )
 }
