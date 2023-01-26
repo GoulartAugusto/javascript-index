@@ -302,7 +302,60 @@ const JavaScriptStrings = () => {
 
         <h2>JavaScript Strings as Objects</h2>
 
+        <p>Normally, JavaScript strings are primitive values, created from literals:</p>
 
+        <br />
+
+        <div style={{backgroundColor:'#cecece'}}>
+            <code><code style={{color:'blue'}}>let</code> x = <code style={{color:'#5d0000'}}>"John"</code>;</code>
+        </div>
+        
+        <br />
+
+        <p>But strings can also be defined as objects with the keyword <code style={{color:'blue'}}>new</code>:</p>
+
+        <br />
+
+        <div style={{backgroundColor:'#cecece'}}>
+            <code><code style={{color:'blue'}}>let</code> y = <code style={{color:'blue'}}>new</code> String(<code style={{color:'#5d0000'}}>"John"</code>);</code>
+        </div>
+
+        <br />
+        <br />
+
+        <div style={{backgroundColor:'#cecece'}}>
+            <h3>Example</h3>
+
+            <div style={{backgroundColor:'#cecece'}}>
+            <code><code style={{color:'blue'}}>let</code> x = <code style={{color:'#5d0000'}}>"John"</code>;</code>
+            </div>
+
+            <code><code style={{color:'blue'}}>let</code> y = <code style={{color:'blue'}}>new</code> String(<code style={{color:'#5d0000'}}>"John"</code>);</code>
+        </div>
+
+        <br />
+
+        <p>When using the == operator, x and y are <b>equal</b>.</p>
+
+        <br />
+
+        <p>When using the === operator, x and y are <b>not equal</b>.</p>
+
+        <br />
+
+        <div style={{backgroundColor:"lightyellow"}}>
+            <p>Comparing two JavaScript objects <b>always</b> returns <b>false</b>.</p>
+        </div>
+
+        <br />
+
+        <div style={{backgroundColor:"lightyellow"}}>
+            <h3>Note!</h3>
+
+            <p>The <code style={{color:'blue'}}>new</code> keyword complicates the code and slows down execution speed.</p>
+
+            <p>String objects can produce unexpected results.</p>
+        </div>
     </main>
   )
 }
