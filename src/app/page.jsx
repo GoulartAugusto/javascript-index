@@ -62,6 +62,8 @@ export default function Home() {
             <li><Link href='/JavaScriptFunctions'>JavaScript Functions</Link></li>
             <li><Link href='/JavaScriptObjects'>JavaScript Objects</Link></li>
             <li><Link href='/JavaScriptEvents'>JavaScript Events</Link></li>
+            <li><Link href='/JavaScriptStrings'>JavaScript Strings</Link></li>
+            <li></li>
             <li></li>
             <li></li>
           </ul>
