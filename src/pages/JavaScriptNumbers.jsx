@@ -836,9 +836,6 @@ const JavaScriptNumbers = () => {
         <br />
       </div>
 
-
-
-
     </main>
   )
 }

@@ -67,6 +67,7 @@ export default function Home() {
             <li><Link href='/JavaScriptStringSearch'>JavaScript String Search</Link></li>
             <li><Link href='/JavaScriptTemplateLiterals'>JavaScript Template Literals</Link></li>
             <li><Link href='/JavaScriptNumbers'>JavaScript Numbers</Link></li>
+            <li><Link href='/JavaScriptBigInt'>JavaScript BigInt</Link></li>
             <li></li>
             <li></li>
           </ul>
