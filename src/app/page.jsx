@@ -68,6 +68,7 @@ export default function Home() {
             <li><Link href='/JavaScriptTemplateLiterals'>JavaScript Template Literals</Link></li>
             <li><Link href='/JavaScriptNumbers'>JavaScript Numbers</Link></li>
             <li><Link href='/JavaScriptBigInt'>JavaScript BigInt</Link></li>
+            <li><Link href='/JavaScriptNumberMethods'>JavaScript Number Methods</Link></li>
             <li></li>
             <li></li>
           </ul>
