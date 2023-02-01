@@ -70,6 +70,7 @@ export default function Home() {
             <li><Link href='/JavaScriptBigInt'>JavaScript BigInt</Link></li>
             <li><Link href='/JavaScriptNumberMethods'>JavaScript Number Methods</Link></li>
             <li><Link href='/JavaScriptNumberProperties'>JavaScript Number Properties</Link></li>
+            <li><Link href='/JavaScriptArrays'>JavaScript Arrays</Link></li>
             <li></li>
             <li></li>
           </ul>
