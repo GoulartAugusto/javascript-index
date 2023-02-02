@@ -7,7 +7,7 @@ const JavaScriptArrays = () => {
     <main className={styles.main}>
         <Link href='/'>Homepage</Link>
 
-        <h2>JavaScript Arrays</h2>
+        <h1>JavaScript Arrays</h1>
 
         <div style={{backgroundColor:'#cceecc'}}>
             <br />

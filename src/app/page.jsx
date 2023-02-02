@@ -71,6 +71,12 @@ export default function Home() {
             <li><Link href='/JavaScriptNumberMethods'>JavaScript Number Methods</Link></li>
             <li><Link href='/JavaScriptNumberProperties'>JavaScript Number Properties</Link></li>
             <li><Link href='/JavaScriptArrays'>JavaScript Arrays</Link></li>
+            <li><Link href='/JavaScriptArrayMethods'>JavaScript Array Methods</Link></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
             <li></li>
             <li></li>
           </ul>
