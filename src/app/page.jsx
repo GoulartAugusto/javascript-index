@@ -72,6 +72,7 @@ export default function Home() {
             <li><Link href='/JavaScriptNumberProperties'>JavaScript Number Properties</Link></li>
             <li><Link href='/JavaScriptArrays'>JavaScript Arrays</Link></li>
             <li><Link href='/JavaScriptArrayMethods'>JavaScript Array Methods</Link></li>
+            <li><Link href='/JavaScriptSortingArrays'>JavaScript Sorting Arrays</Link></li>
             <li></li>
             <li></li>
             <li></li>
