@@ -221,20 +221,407 @@ const JavaScriptSortingArrays = () => {
 
     <h2>The Fisher Yates Method</h2>
 
+    <p>The above example, array.sort(), is not accurate. It will favor some numbers over the others.</p>
+
+    <p>The most popular correct method, is called the Fisher Yates shuffle, and was introduced in data science as early as 1938!</p>
+
+    <p>In JavaScript the method can be translated to this:</p>
+
+    <br />
+
+    <div style={{background:'#cecece'}}>
+      <h3>Example</h3>
+
+      <code>
+          <code style={{color:"blue"}}>const</code> points = [<code style={{color:'red'}}>40</code>, <code style={{color:'red'}}>100</code>, <code style={{color:'red'}}>1</code>, <code style={{color:'red'}}>5</code>, <code style={{color:'red'}}>25</code>, <code style={{color:'red'}}>10</code>];
+      </code>
+
+      <br />
+      <br />
+
+      <code><code style={{color:'blue'}}>for</code>(<code style={{color:'blue'}}>let</code> i = points.length -<code style={{color:'red'}}>1</code>; i &gt; <code style={{color:'red'}}>0</code>; i--) &#123;
+      <br />
+      <code style={{color:'blue'}}>let</code> j = Math.floor(Math.random() * (i + <code style={{color:'red'}}>1</code>));</code>
+
+      <br />
+
+      <code><code style={{color:'blue'}}>let</code> k = points.[i];</code>
 
 
+      <br />
+
+      <code>points[i] = points[j];</code>
+
+      <br />
+
+      <code>points.[j] = k;</code>
+
+      <br />
+
+      &#125;
+
+      <p>Sort the array in random order.</p>
+
+      <p>40,100,1,5,25,10</p>
+
+      <p>25,40,5,10,100,1</p>
+
+    </div>
+
+    <br />
+
+    {/* Just a mark to separete sections */}
+
+    <h2>Find the Highest (or Lowest) Array Value</h2>
+
+    <p>There are no built-in functions for finding the max or min value in an array.</p>
+
+    <p>However, after you have sorted an array, you can use the index to obtain the highest and lowest values.</p>
+
+    <p>Sorting ascending:</p>
+
+    <br />
+
+    <div style={{background:'#cecece'}}>
+      <h3>Example</h3>
+
+      <code>
+          <code style={{color:"blue"}}>const</code> points = [<code style={{color:'red'}}>40</code>, <code style={{color:'red'}}>100</code>, <code style={{color:'red'}}>1</code>, <code style={{color:'red'}}>5</code>, <code style={{color:'red'}}>25</code>, <code style={{color:'red'}}>10</code>];
+      </code>
+
+      <br />
+
+      <code>points.sort(<code style={{color:'blue'}}>function</code>(a, b)&#123;<code style={{color:'blue'}}>return</code> a - b&#125;);</code>
+
+      <br />
+
+      <code style={{color:'green'}}>// now points[0] contains the lowest value</code>
+
+      <br />
+
+      <code style={{color:'green'}}>// and points[points.length-1] contains the highest value</code>
+
+      <p>The lowest number is 1.</p>
+
+    </div>
+
+    <br />
+
+    <p>Sorting descending:</p>
+
+    <br />
+
+    <div style={{background:'#cecece'}}>
+      <h3>Example</h3>
+
+      <code>
+          <code style={{color:"blue"}}>const</code> points = [<code style={{color:'red'}}>40</code>, <code style={{color:'red'}}>100</code>, <code style={{color:'red'}}>1</code>, <code style={{color:'red'}}>5</code>, <code style={{color:'red'}}>25</code>, <code style={{color:'red'}}>10</code>];
+      </code>
+
+      <br />
+
+      <code>points.sort(<code style={{color:'blue'}}>function</code>(a, b)&#123;<code style={{color:'blue'}}>return</code> b - a&#125;);</code>
+
+      <br />
+
+      <code style={{color:'green'}}>// now points[0] contains the highest value</code>
+
+      <br />
+
+      <code style={{color:'green'}}>// and points[points.length-1] contains the lowest value</code>
+
+      <p>The highest number is 100.</p>
+
+    </div>
+
+    <br />
+    
+    <div style={{background:'lightyellow'}}>
+      <br />
+      <p>Sorting a whole array is a very inefficient method if you only want to find the highest (or lowest) value.</p>
+      <br />
+    </div>
+
+    <br />
+
+    {/* Just a mark to separete sections */}
+
+    <h2>Using Math.max() on an Array</h2>
+
+    <p>You can use <code style={{color:'red'}}>Math.max.apply</code> to find the highest number in an array:</p>
+
+    <br />
+
+    <div style={{background:'#cecece'}}>
+      <h3>Example</h3>
+
+      <code>
+        <code style={{color:'blue'}}>function</code> myArrayMax(arr) &#123;
+          <br />
+
+          <code style={{color:'blue'}}>return</code> Math.max.apply(<code style={{color:'blue'}}>null</code>, arr);
+          <br />
+
+        &#125;
+      </code>
+
+      <br />
+
+      <p>The highest number is 100.</p>
+    </div>
+
+    <p><code style={{color:'red'}}>Math.max.apply(null, [1, 2, 3])</code> is equivalent to <code style={{color:'red'}}>Math.max(1, 2, 3)</code>.</p>
+
+    <br />
+
+    {/* Just a mark to separete sections */}
+
+    <h2>Using Math.min() on an Array</h2>
+
+    <p>You can use <code style={{color:'red'}}>Math.min.apply</code> to find the lowest number in an array:</p>
+
+    <br />
+
+    <div style={{background:'#cecece'}}>
+      <h3>Example</h3>
+
+      <code>
+        <code style={{color:'blue'}}>function</code> myArrayMax(arr) &#123;
+          <br />
+
+          <code style={{color:'blue'}}>return</code> Math.min.apply(<code style={{color:'blue'}}>null</code>, arr);
+          <br />
+
+        &#125;
+      </code>
+
+      <br />
+
+      <p>The lowest number is 1.</p>
+    </div>
+
+    <br />
+
+    <p><code style={{color:'red'}}>Math.min.apply(null, [1, 2, 3])</code> is equivalent to <code style={{color:'red'}}>Math.min(1, 2, 3)</code>.</p>
+
+    <br />
+
+    {/* Just a mark to separete sections */}
+
+    <h2>My Min / Max JavaScript Methods</h2>
+
+    <p>The fastest solution is to use a "home made" method.</p>
+
+    <p>This function loops through an array comparing each value with the highest value found:</p>
+
+    <br />
+
+    <div style={{background:'#cecece'}}>
+      <h3>Example (Find Max)</h3>
+
+      <code>
+          <code style={{color:"blue"}}>function</code> myArrayMax(arr) &#123;
+          <br />
+
+          <code style={{color:'blue'}}>let</code> len = arr.length;
+
+          <br />
+
+          <code style={{color:'blue'}}>let</code> max = -<code style={{color:'red'}}>Infinity</code>;
+
+          <br />
+
+          <code style={{color:'blue'}}>while</code> (len --) &#123;
+
+          <br />
+
+          <code style={{color:'blue'}}>if</code> (arr[len] &gt; max ) &#123;
+
+          <br />
+
+          max = arr[len];
+
+          <br />
+
+          &#125;
+
+          <br />
+
+          &#125;
+
+          <br />
+
+          <code style={{color:'blue'}}>return</code> max;
+
+          <br />
+
+          &#125;
+        
+      </code>
 
 
+      <p>The highest number is 100.</p>
+
+    </div>
+
+    <br />
+
+    <p>This function loops through an array comparing each value with the lowest value found:</p>
+
+    <br />
+
+    <div style={{background:'#cecece'}}>
+      <h3>Example (Find Min)</h3>
+
+      <code>
+          <code style={{color:"blue"}}>function</code> myArrayMin(arr) &#123;
+          <br />
+
+          <code style={{color:'blue'}}>let</code> len = arr.length;
+
+          <br />
+
+          <code style={{color:'blue'}}>let</code> min = <code style={{color:'red'}}>Infinity</code>;
+
+          <br />
+
+          <code style={{color:'blue'}}>while</code> (len --) &#123;
+
+          <br />
+
+          <code style={{color:'blue'}}>if</code> (arr[len] &gt; min ) &#123;
+
+          <br />
+
+          min = arr[len];
+
+          <br />
+
+          &#125;
+
+          <br />
+
+          &#125;
+
+          <br />
+
+          <code style={{color:'blue'}}>return</code> min;
+
+          <br />
+
+          &#125;
+        
+      </code>
 
 
+      <p>The lowest number is 1.</p>
 
+    </div>
 
+    <br />
 
+    {/* Just a mark to separete sections */}
+    
+    <h2>Sorting Object Arrays</h2>
 
+    <p>JavaScript arrays often contain objects:</p>
 
+    <br />
 
+    <div style={{background:"#cecece"}}>
+      <code>
+        <code style={{color:'blue'}}>const</code> cars = [
+          <br />
 
+          &#123;type:<code style={{color:"#5d0000"}}>"Volvo"</code>, year:<code style={{color:'red'}}>2016</code>&#125;,
 
+          <br />
+
+          &#123;type:<code style={{color:"#5d0000"}}>"Saab"</code>, year:<code style={{color:'red'}}>2001</code>&#125;,
+
+          <br />
+
+          &#123;type:<code style={{color:"#5d0000"}}>"BMW"</code>, year:<code style={{color:'red'}}>2010</code>&#125;
+
+          <br />
+
+        ];
+      </code>
+    </div>
+
+    <br />
+
+    <p>Even if objects have properties of different data types, the <code style={{color:'red'}}>sort()</code> method can be used to sort the array.</p>
+
+    <p>The solution is to write a compare function to compare the property valyes:</p>
+
+    <br />
+
+    <div style={{background:'#cecece'}}>
+        <h3>Example</h3>
+
+        <code>cars.sort(<code style={{color:"blue"}}>function</code>(a, b)&#123;<code style={{color:"blue"}}>return</code> a.year - b.year&#125;);</code>
+
+        <br />
+
+        <p>Sort car objects on age:</p>
+
+        <ul style={{listStyle:'none'}}>
+          <li>Saab 2001</li>
+          <li>BMW 2010</li>
+          <li>Volvo 2016</li>
+        </ul>
+    </div>
+
+    <br />
+
+    <p>Comparing string properties is a little more complex:</p>
+
+    <br />
+
+    <div style={{background:'#cecece'}}>
+        <h3>Example</h3>
+
+        <code>
+          cars.sort(<code style={{color:'blue'}}>function</code>(a, b) &#123;
+          
+          <br />
+
+          <code style={{color:'blue'}}>let</code> x = a.type.toLowerCase();
+
+          <br />
+
+          <code style={{color:"blue"}}>let</code> y = b.type.toLowerCase();
+
+          <br />
+
+          <code style={{color:"blue"}}>if</code> (x &gt; y ) &#123;<code style={{color:"blue"}}>return</code> -<code style={{color:"red"}}>1</code>;&#125;
+
+          <br />
+
+          <code style={{color:"blue"}}>if</code> (x &lt; y ) &#123;<code style={{color:"blue"}}>return</code> <code style={{color:"red"}}>1</code>;&#125;
+
+          <br />
+
+          <code style={{color:'blue'}}>return</code> <code style={{color:"red"}}>0</code>;
+
+          <br />
+
+          &#125;);
+
+          <br />
+          <br />
+
+          <p>Sort car objects on type.</p>
+
+          <ul style={{listStyle:'none'}}>
+            <li>BMW 2010</li>
+            <li>Saab 2001</li>
+            <li>Volvo 2016</li>
+          </ul>
+
+        </code>
+    </div>
 
     </main>
   )
