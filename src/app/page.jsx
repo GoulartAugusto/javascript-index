@@ -75,6 +75,7 @@ export default function Home() {
             <li><Link href='/JavaScriptSortingArrays'>JavaScript Sorting Arrays</Link></li>
             <li><Link href='/JavaScriptArrayIteration'>JavaScript Array Iteration</Link></li>
             <li><Link href='/JavaScriptArrayConst'>JavaScript Array Const</Link></li>
+            <li><Link href='/JavaScriptDateObjects'>JavaScript Date Objects</Link></li>
             <li></li>
             <li></li>
             <li></li>
