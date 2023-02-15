@@ -233,21 +233,606 @@ const JavaScriptGetDateMethods = () => {
 
         <br />
 
-        
+        <div style={{background:'#cecece'}}>
+            <h3>Examples</h3>
+
+            <code><code style={{color:'blue'}}>const</code> months = [<code style={{color:'#5d0000'}}>"January"</code>, <code style={{color:'#5d0000'}}>"February"</code>, <code style={{color:'#5d0000'}}>"March"</code>, <code style={{color:'#5d0000'}}>"April"</code>, <code style={{color:'#5d0000'}}>"May"</code>, <code style={{color:'#5d0000'}}>"June"</code>, <code style={{color:'#5d0000'}}>"July"</code>, <code style={{color:'#5d0000'}}>"August"</code>, <code style={{color:'#5d0000'}}>"September"</code>, <code style={{color:'#5d0000'}}>"October"</code>, <code style={{color:'#5d0000'}}>"November"</code>, <code style={{color:'#5d0000'}}>"December"</code>];</code>
 
 
+            <br />
+            <br />
 
 
+            <code><code style={{color:'blue'}}>const</code> d = <code style={{color:'blue'}}>new</code> Date(<code style={{color:'#5d0000'}}>"2021-03-25"</code>)</code>
+
+            <br />
+
+            <code><code style={{color:'blue'}}>let</code> month = months[d.getMonth()];</code>
+
+            <br />
+
+            <p>Return the month as a number.</p>
+
+            <p>You can use an array of names to return the month as a name:</p>
+
+            <p>March</p>
+        </div>
+
+        <br />
+
+        <div style={{background:'#cecece'}}>
+            <h3>Examples</h3>
+
+            <code><code style={{color:'blue'}}>const</code> months = [<code style={{color:'#5d0000'}}>"January"</code>, <code style={{color:'#5d0000'}}>"February"</code>, <code style={{color:'#5d0000'}}>"March"</code>, <code style={{color:'#5d0000'}}>"April"</code>, <code style={{color:'#5d0000'}}>"May"</code>, <code style={{color:'#5d0000'}}>"June"</code>, <code style={{color:'#5d0000'}}>"July"</code>, <code style={{color:'#5d0000'}}>"August"</code>, <code style={{color:'#5d0000'}}>"September"</code>, <code style={{color:'#5d0000'}}>"October"</code>, <code style={{color:'#5d0000'}}>"November"</code>, <code style={{color:'#5d0000'}}>"December"</code>];</code>
 
 
+            <br />
+            <br />
 
 
+            <code><code style={{color:'blue'}}>const</code> d = <code style={{color:'blue'}}>new</code> Date()</code>
+
+            <br />
+
+            <code><code style={{color:'blue'}}>let</code> month = months[d.getMonth()];</code>
+
+            <br />
+
+            <p>Return the month as a number.</p>
+
+            <p>You can use an array of names to return the month as a name:</p>
+
+            <p>February</p>
+        </div>
+
+        <br />
+
+        {/* Just a mark to separete sections */}
+
+        <h2>The getDate() Method</h2>
+
+        <p>The <code style={{color:'blue'}}>getDate()</code> method returns the day of a date as a number (1-31):</p>
+
+        <br />
+
+        <div style={{background:'#cecece'}}>
+            <h3>Examples</h3>
+
+            <code><code style={{color:'blue'}}>const</code> d = <code style={{color:'blue'}}>new</code> Date(<code style={{color:'#5d0000'}}>"21-03-25"</code>);</code>
+
+            <br />
+
+            <code>d.getDate();</code>
+
+            <br />
+
+            <p>Return the day of a date as a number (1-31):</p>
+
+            <p>25</p>
+        </div>
+
+        <br />
+
+        <div style={{background:'#cecece'}}>
+            <h3>Examples</h3>
+
+            <code><code style={{color:'blue'}}>const</code> d = <code style={{color:'blue'}}>new</code> Date();</code>
+
+            <br />
+
+            <code>d.getDate();</code>
+
+            <br />
+
+            <p>Return the day of a date as a number (1-31):</p>
+
+            <p>15</p>
+        </div>
+
+        <br />
+
+        {/* Just a mark to separete sections */}
+
+        <h2>The getHours() Method</h2>
+
+        <p>The <code style={{color:'blue'}}>getHours()</code> method returns the hours of a date as a number (0-23):</p>
+
+        <br />
+
+        <div style={{background:'#cecece'}}>
+            <h3>Examples</h3>
+
+            <code><code style={{color:'blue'}}>const</code> d = <code style={{color:'blue'}}>new</code> Date(<code style={{color:'#5d0000'}}>"21-03-25"</code>);</code>
+
+            <br />
+
+            <code>d.getHours();</code>
+
+            <br />
+
+            <p>Return the hours of a date as a number (0-23):</p>
+
+            <p>21</p>
+        </div>
+
+        <br />
+
+        <div style={{background:'#cecece'}}>
+            <h3>Examples</h3>
+
+            <code><code style={{color:'blue'}}>const</code> d = <code style={{color:'blue'}}>new</code> Date();</code>
+
+            <br />
+
+            <code>d.getHours();</code>
+
+            <br />
+
+            <p>Return the hours of a date as a number (0-23):</p>
+
+            <p>18</p>
+        </div>
+
+        <br />
+
+        {/* Just a mark to separete sections */}
+
+        <h2>The getMinutes() Method</h2>
+
+        <p>The <code style={{color:'blue'}}>getMinutes()</code> method returns the minutes of a date as a number (0-59):</p>
+
+        <div style={{background:'#cecece'}}>
+            <h3>Examples</h3>
+
+            <code><code style={{color:'blue'}}>const</code> d = <code style={{color:'blue'}}>new</code> Date(<code style={{color:'#5d0000'}}>"21-03-25"</code>);</code>
+
+            <br />
+
+            <code>d.getMinutes();</code>
+
+            <br />
+
+            <p>Returns the minutes of a date as a number (0-59):</p>
+
+            <p>0</p>
+        </div>
+
+        <br />
+
+        <div style={{background:'#cecece'}}>
+            <h3>Examples</h3>
+
+            <code><code style={{color:'blue'}}>const</code> d = <code style={{color:'blue'}}>new</code> Date();</code>
+
+            <br />
+
+            <code>d.getMinutes();</code>
+
+            <br />
+
+            <p>Returns the minutes of a date as a number (0-59):</p>
+
+            <p>55</p>
+        </div>
+
+        <br />
+
+        {/* Just a mark to separete sections */}
+
+        <h2>The getSeconds() Method</h2>
+
+        <p>The <code style={{color:'blue'}}>getSeconds()</code> method returns the seconds of a date as a number (0-59):</p>
+
+        <br />
+
+        <div style={{background:'#cecece'}}>
+            <h3>Examples</h3>
+
+            <code><code style={{color:'blue'}}>const</code> d = <code style={{color:'blue'}}>new</code> Date(<code style={{color:'#5d0000'}}>"21-03-25"</code>);</code>
+
+            <br />
+
+            <code>d.getSeconds();</code>
+
+            <br />
+
+            <p>Return the seconds of a date as a number (0-59):</p>
+
+            <p>0</p>
+        </div>
+
+        <br />
+
+        <div style={{background:'#cecece'}}>
+            <h3>Examples</h3>
+
+            <code><code style={{color:'blue'}}>const</code> d = <code style={{color:'blue'}}>new</code> Date();</code>
+
+            <br />
+
+            <code>d.getMinutes();</code>
+
+            <br />
+
+            <p>Return the seconds of a date as a number (0-59):</p>
+
+            <p>10</p>
+        </div>
+
+        <br />
+
+        {/* Just a mark to separete sections */}
+
+        <h2>The getMilliseconds() Method</h2>
+
+        <p>The <code style={{color:'blue'}}>getMilliseconds()</code> method returns the milliseconds of a date as a number (0-999):</p>
+
+        <br />
+
+        <div style={{background:'#cecece'}}>
+            <h3>Examples</h3>
+
+            <code><code style={{color:'blue'}}>const</code> d = <code style={{color:'blue'}}>new</code> Date(<code style={{color:'#5d0000'}}>"21-03-25"</code>);</code>
+
+            <br />
+
+            <code>d.getMilliseconds();</code>
+
+            <br />
+
+            <p>Return the milliseconds of a date as a number (0-999):</p>
+
+            <p>0</p>
+        </div>
+
+        <br />
+
+        <div style={{background:'#cecece'}}>
+            <h3>Examples</h3>
+
+            <code><code style={{color:'blue'}}>const</code> d = <code style={{color:'blue'}}>new</code> Date();</code>
+
+            <br />
+
+            <code>d.getMilliseconds();</code>
+
+            <br />
+
+            <p>Return the milliseconds of a date as a number (0-999):</p>
+
+            <p>279</p>
+        </div>
+
+        <br />
+
+        {/* Just a mark to separete sections */}
+
+        <h2>The getDay() Method</h2>
+
+        <p>The <code style={{color:'blue'}}>getDay()</code> method returns the weekday of a date as a number (0-6).</p>
+
+        <br />
+
+        <div style={{background:'lightyellow'}}>
+            <h3>Note</h3>
+
+            <p>In JavaScript, the first day of the week (day 0) is Sunday.</p>
+
+            <p>Some countries in the world consider the first day of the week to be Monday.</p>
+        </div>
+
+        <br />
+
+        <div style={{background:'#cecece'}}>
+            <h3>Examples</h3>
+
+            <code><code style={{color:'blue'}}>const</code> d = <code style={{color:'blue'}}>new</code> Date(<code style={{color:'#5d0000'}}>"21-03-25"</code>);</code>
+
+            <br />
+
+            <code>d.getDay();</code>
+
+            <br />
+
+            <p>Return the weekday as a number:</p>
+
+            <p>3</p>
+        </div>
+
+        <br />
+
+        <div style={{background:'#cecece'}}>
+            <h3>Examples</h3>
+
+            <code><code style={{color:'blue'}}>const</code> d = <code style={{color:'blue'}}>new</code> Date();</code>
+
+            <br />
+
+            <code>d.getDay();</code>
+
+            <br />
+
+            <p>Return the weekday as a number:</p>
+
+            <p>3</p>
+        </div>
+
+        <br />
+
+        <div style={{color:'lightyellow'}}>
+            <h3>Note</h3>
+
+            <p>You can use an array of names, and <code style={{color:'blue'}}>getDay()</code> to return weekday as a name:</p>
+
+            <br />
+        </div>
+
+        <br />
+
+        <div style={{background:'#cecece'}}>
+            <h3>Examples</h3>
+
+            <code><code style={{color:'blue'}}>const</code> days = [<code style={{color:'#5d0000'}}>"Sunday"</code>, <code style={{color:'#5d0000'}}>"Monday"</code>, <code style={{color:'#5d0000'}}>"Tuesday"</code>, <code style={{color:'#5d0000'}}>"Wednesday"</code>, <code style={{color:'#5d0000'}}>"Thursday"</code>, <code style={{color:'#5d0000'}}>"Friday"</code>, <code style={{color:'#5d0000'}}>"Saturday"</code>];</code>
 
 
+            <br />
+            <br />
 
 
+            <code><code style={{color:'blue'}}>const</code> d = <code style={{color:'blue'}}>new</code> Date(<code style={{color:'#5d0000'}}>"2021-03-25"</code>)</code>
+
+            <br />
+
+            <code><code style={{color:'blue'}}>let</code> day = days[d.getDay()];</code>
+
+            <br />
+
+            <p>Return the weekday as a number.</p>
+
+            <p>You can use an array of names to return the weekday as a name:</p>
+
+            <p>Wednesday</p>
+        </div>
+
+        <br />
+
+        <div style={{background:'#cecece'}}>
+            <h3>Examples</h3>
+
+            <code><code style={{color:'blue'}}>const</code> days = [<code style={{color:'#5d0000'}}>"Sunday"</code>, <code style={{color:'#5d0000'}}>"Monday"</code>, <code style={{color:'#5d0000'}}>"Tuesday"</code>, <code style={{color:'#5d0000'}}>"Wednesday"</code>, <code style={{color:'#5d0000'}}>"Thursday"</code>, <code style={{color:'#5d0000'}}>"Friday"</code>, <code style={{color:'#5d0000'}}>"Saturday"</code>];</code>
 
 
+            <br />
+            <br />
+
+
+            <code><code style={{color:'blue'}}>const</code> d = <code style={{color:'blue'}}>new</code> Date()</code>
+
+            <br />
+
+            <code><code style={{color:'blue'}}>let</code> day = days[d.getDay()];</code>
+
+            <br />
+
+            <p>Return the weekday as a number.</p>
+
+            <p>You can use an array of names to return the weekday as a name:</p>
+
+            <p>Wednesday</p>
+        </div>
+
+        <br />
+
+        {/* Just a mark to separete sections */}
+
+        <h2>The getTime() Method</h2>
+
+        <p>The <code style={{color:'blue'}}>getTime()</code> method returns the number of milliseconds since January 1, 1970:</p>
+
+        <br />
+
+        <div style={{background:'#cecece'}}>
+            <h3>Examples</h3>
+
+            <code><code style={{color:'blue'}}>const</code> d = <code style={{color:'blue'}}>new</code> Date(<code style={{color:"#5d0000"}}>"1970-01-01"</code>);</code>
+
+            <br />
+
+            <code>d.getTime();</code>
+
+            <br />
+
+            <p>Return the number of milliseconds since midnight January 1, 1970:</p>
+
+            <p>0</p>
+        </div>
+
+        <br />
+
+        <div style={{background:'#cecece'}}>
+            <h3>Examples</h3>
+
+            <code><code style={{color:'blue'}}>const</code> d = <code style={{color:'blue'}}>new</code> Date(<code style={{color:"#5d0000"}}>"2021-03-25"</code>);</code>
+
+            <br />
+
+            <code>d.getTime();</code>
+
+            <br />
+
+            <p>Return the number of milliseconds since midnight January 1, 1970:</p>
+
+            <p>1616630400000</p>
+        </div>
+
+        <br />
+
+        <div style={{background:'#cecece'}}>
+            <h3>Examples</h3>
+
+            <code><code style={{color:'blue'}}>const</code> d = <code style={{color:'blue'}}>new</code> Date();</code>
+
+            <br />
+
+            <code>d.getTime();</code>
+
+            <br />
+
+            <p>Return the number of milliseconds since midnight January 1, 1970:</p>
+
+            <p>1676498849084</p>
+        </div>
+
+        <br />
+
+        {/* Just a mark to separete sections */}
+
+        <h2>The Date.now() Method</h2>
+
+        <p><code style={{color:'blue'}}>Date.now()</code> returns the number of milliseconds since January 1, 1970.</p>
+
+        <br />
+
+        <div style={{background:'#cecece'}}>
+            <h3>Examples</h3>
+
+            <code><code style={{color:'blue'}}>let</code> ms = Date.now();</code>
+
+            <br />
+
+            <p>Return the current date/time in milliseconds since January 1, 1970:</p>
+
+            <p>1676498971869</p>
+        </div>
+
+        <br />
+
+        <div style={{background:'#cecece'}}>
+            <p>Calculate the number of years since 1970/01/01:</p>
+
+            <br />
+
+            <code><code style={{color:'blue'}}>const</code> minute = <code style={{color:'red'}}>1000</code> * <code style={{color:'red'}}>60</code>;</code>
+
+            <br />
+
+            <code><code style={{color:'blue'}}>const</code> hour = minute * <code style={{color:'red'}}>60</code></code>
+
+            <br />
+
+            <code><code style={{color:'blue'}}>const</code> day = hour * <code style={{color:'red'}}>24</code></code>
+
+            <br />
+
+            <code><code style={{color:'blue'}}>const</code> year = day * <code style={{color:'red'}}>365</code></code>
+
+            <br />
+            <br />
+
+            
+
+            <code><code style={{color:'blue'}}>let</code> years = Math.round(Date.now() / year);</code>
+
+            <br />
+
+            <p>Calculate the number of years since January 1, 1970:</p>
+
+            <p>53</p>
+
+            <br />
+        </div>
+
+        <br />
+
+        <p><code style={{color:'blue'}}>Date.now()</code> is a static method of the Date object.</p>
+
+        <p>You <b>cannot</b> use it on a date object like <code style={{color:'blue'}}>myDate.now()</code>.</p>
+
+        <p>The syntax is always <code style={{color:'blue'}}>Date.now()</code>.</p>
+
+        <br />
+
+        {/* Just a mark to separete sections */}
+
+        <h2>UTC Date Get Methods</h2>
+
+        <table>
+            <tr>
+                <th>Method</th>
+                <th>Same As</th>
+                <th>Description</th>
+            </tr>
+
+            <tr>
+                <td>getUTCDate()</td>
+                <td>getDate()</td>
+                <td>Returns the UTC date</td>
+            </tr>
+            <tr>
+                <td>getUTCFullYear()</td>
+                <td>getFullYear()</td>
+                <td>Returns the UTC year</td>
+            </tr>
+            <tr>
+                <td>getUTCMonth()</td>
+                <td>getMonth()</td>
+                <td>Returns the UTC month</td>
+            </tr>
+            <tr>
+                <td>getUTCDay()</td>
+                <td>getDay()</td>
+                <td>Returns the UTC day</td>
+            </tr>
+            <tr>
+                <td>getUTCHours()</td>
+                <td>getHours()</td>
+                <td>Returns the UTC hour</td>
+            </tr>
+            <tr>
+                <td>getUTCMinutes()</td>
+                <td>getMinutes()</td>
+                <td>Returns the UTC minutes</td>
+            </tr>
+            <tr>
+                <td>getUTCSeconds()</td>
+                <td>getSeconds()</td>
+                <td>Returns the UTC seconds</td>
+            </tr>
+            <tr>
+                <td>getUTCMilliseconds()</td>
+                <td>getMilliseconds()</td>
+                <td>Returns the UTC milliseconds</td>
+            </tr>
+        </table>
+
+        <br />
+
+        <p>UTC methods use UTC time (Coordinated Universal Time).</p>
+
+        <p>UTC time is the same as GMT (Greenwich Mean Time).</p>
+
+        <p>The difference between Local time and UTC time can be up to 24 hours.</p>
+
+        <br />
+
+        {/* Just a mark to separete sections */}
+
+        <h2>The getTimezoneOffset() Method</h2>
+
+        <p>The <code style={{color:'blue'}}>getTimezoneOffset()</code> method returns the difference (in minutes) between local time an UTC time:</p>
+
+        <div style={{background:"#cecece"}}>
+            <h3>Example</h3>
+
+            <code><code style={{color:"blue"}}>let</code> diff = d.getTimezoneOffset();</code>
+
+            <br />
+
+            <p>The time zone difference in minutes is:</p>
+
+            <p>180</p>
+
+        </div>
 
 
     </main>
