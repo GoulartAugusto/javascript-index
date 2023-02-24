@@ -80,6 +80,7 @@ export default function Home() {
             <li><Link href='/JavaScriptGetDateMethods'>JavaScript Get Date Methods</Link></li>
             <li><Link href='/JavaScriptSetDateMethods'>JavaScript Set Date Methods</Link></li>
             <li><Link href='/JavaScriptMathObject'>JavaScript Math Object</Link></li>
+            <li><Link href='/JavaScriptRandom'>JavaScript Random</Link></li>
             <li></li>
             <li></li>
             <li></li>
