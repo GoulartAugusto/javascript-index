@@ -84,6 +84,7 @@ export default function Home() {
             <li><Link href='/JavaScriptBooleans'>JavaScript Booleans</Link></li>
             <li><Link href='/JavaScriptComparisonandLogicalOperators'>JavaScript Comparison and Logical Operators</Link></li>
             <li><Link href='/JavaScriptifelseandelseif'>JavaScript if, else, and else if</Link></li>
+            <li><Link href='/JavaScriptSwitchStatement'>JavaScript Switch Statement</Link></li>
             <li></li>
             <li></li>
             <li></li>
