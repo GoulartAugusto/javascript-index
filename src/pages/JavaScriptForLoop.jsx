@@ -112,6 +112,86 @@ const JavaScriptForLoop = () => {
         <h2>The For Loop</h2>
 
         <p>The <code style={{color:'blue'}}>for</code> statement creates a loop with 3 optional expressions:</p>
+
+        <div style={{background:'#cecece'}}>
+            <code>
+                <code style={{color:'blue'}}>for</code> (expression 1; expression 2; expression 3) &#123;
+
+                <br />
+
+                <code style={{color:"green"}}>// code block to be executed</code>
+                
+                <br />
+
+                &#125;
+            </code>
+        </div>
+
+        <br />
+
+        <p><b>Expression 1</b> is executed (one time) before the execution of the code block.</p>
+
+        <p><b>Expression 2</b> defines the condition for executing the code block.</p>
+
+        <p><b>Expression 3</b> is executed (every time) after the code block has been executed.</p>
+
+        <br />
+
+        <div style={{background:'#cecece'}}>
+            <h3>Example</h3>
+
+            <code>
+                <code style={{color:'blue'}}>for</code> (<code style={{color:'blue'}}>let</code> i = <code style={{color:'red'}}>0</code>; i &lt; <code style={{color:'red'}}>5</code>; i++) &#123;
+
+                <br />
+
+                text += <code style={{color:'#5d0000'}}>"The number is "</code> + i + <code style={{color:'#5d0000'}}>"&lt;br&gt;"</code>;
+
+                <br />
+
+                &#125;
+            </code>
+
+            <br />
+
+            <p>The result:</p>
+
+            <ul style={{listStyle:'none'}}>
+                <li>The number is 0</li>
+                <li>The number is 1</li>
+                <li>The number is 2</li>
+                <li>The number is 3</li>
+                <li>The number is 4</li>
+            </ul>
+        </div>
+
+        <br />
+
+        <p>From the example above, you can read:</p>
+
+        <p>Expression 1 sets a variable before the loop starts (let i = 0).</p>
+        
+        <p>Expression 2 defines the condition for the loop to run (i must be less than 5).</p>
+
+        <p>Expression 3 increases a value (i++) each time the code block in the loop has been executed.</p>
+
+        <br />
+
+        {/* Just a mark to separete sections */}
+        
+        <h2>Expression 1</h2>
+
+        <p>Normally you will use expression 1 to initialize the variable used in the loop (let i = 0).</p>
+
+        <p>This is not always the case. JavaScript doesn't care. Expression 1 is optional.</p>
+
+        <p>You can initiate many values in expression 1 (separated by comma):</p>
+
+        <br />
+        
+        <div style={{background:'#cecece'}}>
+            <h3>Example</h3>
+        </div>
     </main>
   )
 }
