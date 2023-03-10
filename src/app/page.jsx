@@ -86,6 +86,7 @@ export default function Home() {
             <li><Link href='/JavaScriptifelseandelseif'>JavaScript if, else, and else if</Link></li>
             <li><Link href='/JavaScriptSwitchStatement'>JavaScript Switch Statement</Link></li>
             <li><Link href='/JavaScriptForLoop'>JavaScript For Loop</Link></li>
+            <li><Link href='/JavaScriptForIn'>JavaScript For In</Link></li>
             <li></li>
             <li></li>
             <li></li>
