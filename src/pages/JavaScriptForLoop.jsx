@@ -191,7 +191,283 @@ const JavaScriptForLoop = () => {
         
         <div style={{background:'#cecece'}}>
             <h3>Example</h3>
+
+            <code>
+                <code>
+                    <code style={{color:'blue'}}>const</code> cars = [<code style={{color:'#5d0000'}}>"BMW"</code>, <code style={{color:'#5d0000'}}>"Volvo"</code>, <code style={{color:'#5d0000'}}>"Saab"</code>, <code style={{color:'#5d0000'}}>"Ford"</code>];
+                </code>
+
+                <br />
+                <br />
+
+                <code style={{color:'blue'}}>for</code> (<code style={{color:'blue'}}>let</code> i = <code style={{color:'red'}}>0</code>, len = cars.length, text = <code style={{color:'#5d0000'}}>""</code>; i &lt; len; i++) &#123;
+
+                <br />
+
+                text += cars[i] + <code style={{color:'#5d0000'}}>"&lt;br&gt;"</code>;
+
+                <br />
+
+                &#125;
+            </code>
+
+            <p>result</p>
+
+            <ul>
+                <li>BMW</li>
+                <li>Volvo</li>
+                <li>Saab</li>
+                <li>Ford</li>
+            </ul>
         </div>
+
+        <br />
+
+        <p>And you can omit expression 1 (like when your values are set before the loop starts):</p>
+
+        <br />
+
+        <div style={{background:'#cecece'}}>
+            <h3>Example</h3>
+
+            <code>
+                    <code style={{color:'blue'}}>const</code> cars = [<code style={{color:'#5d0000'}}>"BMW"</code>, <code style={{color:'#5d0000'}}>"Volvo"</code>, <code style={{color:'#5d0000'}}>"Saab"</code>, <code style={{color:'#5d0000'}}>"Ford"</code>, <code style={{color:'#5d0000'}}>"Fiat"</code>, <code style={{color:'#5d0000'}}>"Audi"</code>]
+            </code>
+
+            <br />
+            <br />
+
+            <code>
+                <code style={{color:'blue'}}>let</code> i = <code style={{color:"red"}}>0</code>;
+
+                <br />
+
+                <code style={{color:'blue'}}>let</code> len = cars.length;
+
+                <br />
+
+                <code style={{color:'blue'}}>let</code> text = <code style={{color:'#5d0000'}}>""</code>;
+
+                <br />
+
+                <code style={{color:'blue'}}>for</code> (; i &lt; len; i++) &#123;
+
+                <br />
+
+                text += cars[i] + <code style={{color:'#5d0000'}}>"&lt;br&gt;"</code>
+
+                <br />
+
+                &#125;
+
+                <br />
+
+            </code>
+
+            <br />
+
+            <p>result</p>
+
+            <ul>
+                <li>Saab</li>
+                <li>Ford</li>
+            </ul>
+        </div>
+
+        <br />
+
+        {/* Just a mark to separete sections */}
+
+        <h2>Expression 2</h2>
+
+        <p>Often expression 2 is used to evaluate the condition of the initial variable.</p>
+
+        <p>This is not always the case. JavaScript doesn't care. Expression 2 is also optional.</p>
+
+        <p>If expression 2 returns true, the loop will start over again. If it returns false, the loop will end.</p>
+
+        <div style={{background:'lightyellow'}}>
+            <br />
+
+            <p>If you omit expression 2, you must provide a <b>break</b> inside the loop. Otherwise the loop will never end. This will crash your browser. Read about breaks in a later chapter of this tutorial.</p>
+
+            <br />
+        </div>
+
+        {/* Just a mark to separete sections */}
+
+        <h2>Expression 3</h2>
+
+        <br />
+
+        <p>Often expression 3 increments the value of the initial variable.</p>
+        
+        <p>This is not always the case. JavaScript doesn't care. Expression 3 is optional.</p>
+
+        <p>Expression 3 can do anything like negative increment (i--), positive increment (i = i + 15), or anything else.</p>
+
+        <p>Expression 3 can also be omitted (like when you increment your values inside the loop):</p>
+
+        <br />
+
+        <div style={{background:'#cecece'}}>
+            <h3>Example</h3>
+
+            <code>
+                    <code style={{color:'blue'}}>const</code> cars = [<code style={{color:'#5d0000'}}>"BMW"</code>, <code style={{color:'#5d0000'}}>"Volvo"</code>, <code style={{color:'#5d0000'}}>"Saab"</code>, <code style={{color:'#5d0000'}}>"Ford"</code>, <code style={{color:'#5d0000'}}>"Fiat"</code>, <code style={{color:'#5d0000'}}>"Audi"</code>]
+            </code>
+
+            <br />
+            <br />
+
+            <code>
+                <code style={{color:'blue'}}>let</code> i = <code style={{color:"red"}}>0</code>;
+
+                <br />
+
+                <code style={{color:'blue'}}>let</code> len = cars.length;
+
+                <br />
+
+                <code style={{color:'blue'}}>let</code> text = <code style={{color:'#5d0000'}}>""</code>;
+
+                <br />
+
+                <code style={{color:'blue'}}>for</code> (; i &lt; len; ) &#123;
+
+                <br />
+
+                text += cars[i] + <code style={{color:'#5d0000'}}>"&lt;br&gt;"</code>;
+
+                <br />
+
+                i++;
+                
+                <br />
+
+                &#125;
+
+                <br />
+
+            </code>
+
+            <br />
+
+            <p>result</p>
+
+            <ul>
+                <li>BMW</li>
+                <li>Volvo</li>
+                <li>Saab</li>
+                <li>Ford</li>
+            </ul>
+        </div>
+
+        <br />
+
+        {/* Just a mark to separete sections */}
+
+        <h2>Loop Scope</h2>
+
+        <p>Using <code style={{color:'blue'}}>var</code> in a loop:</p>
+
+        <br />
+
+        <div style={{background:"#cecece"}}>
+            <h3>Example</h3>
+
+            <code>
+                <code style={{color:'blue'}}>var</code> i = <code style={{color:'red'}}>5</code>;
+
+                <br />
+                <br />
+
+                <code style={{color:'blue'}}>for</code> (<code style={{color:'blue'}}>var</code> i = <code style={{color:'red'}}>0</code>; i &lt; <code style={{color:'red'}}>10</code>; i++) &#123;
+                
+                <br />
+
+                <code style={{color:'green'}}>//some code</code>
+
+                <br />
+
+                &#125;
+
+                <br />
+                <br />
+
+                <code style={{color:'green'}}>Here i is 10</code>
+
+                <br />
+
+                <p>10</p>
+            </code>
+        </div>
+
+        <br />
+
+        <p>Using <code style={{color:'blue'}}>let</code> in a loop:</p>
+
+        <br />
+
+        <div style={{background:"#cecece"}}>
+            <h3>Example</h3>
+
+            <code>
+                <code style={{color:'blue'}}>let</code> i = <code style={{color:'red'}}>5</code>;
+
+                <br />
+                <br />
+
+                <code style={{color:'blue'}}>for</code> (<code style={{color:'blue'}}>let</code> i = <code style={{color:'red'}}>0</code>; i &lt; <code style={{color:'red'}}>10</code>; i++) &#123;
+                
+                <br />
+
+                <code style={{color:'green'}}>//some code</code>
+
+                <br />
+
+                &#125;
+
+                <br />
+                <br />
+
+                <code style={{color:'green'}}>Here i is 5</code>
+
+                <br />
+
+                <p>5</p>
+            </code>
+        </div>
+
+        <br />
+
+        <p>In the first example, using <code style={{color:'blue'}}>var</code>, the variable declared in the loop redeclares the variable outside the loop.</p>
+
+        <p>In the second example, using <code style={{color:'blue'}}>let</code>, the variable declared in the loop does not redeclare the variable outside the loop.</p>
+
+        <p>When <code style={{color:'blue'}}>let</code> is used to declare the i variable in a loop, the i variable will only be visible within the loop.</p>
+
+        <br />
+
+        {/* Just a mark to separete sections */}
+
+        <h2>For/Of and For/In Loops</h2>
+
+        <p>The <code style=
+        {{color:'blue'}}>for/in</code> loop and the <code style=
+        {{color:'blue'}}>for/of</code> loop are explained in the next chapter.</p>
+
+        <br />
+
+        {/* Just a mark to separete sections */}
+
+        <h2>While Loops</h2>
+
+        <p>The <code style=
+        {{color:'blue'}}>while</code> loop and the <code style=
+        {{color:'blue'}}>do/while</code> are explained in the next chapters.</p>
+
+        <br />
     </main>
   )
 }
