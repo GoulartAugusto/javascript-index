@@ -90,6 +90,7 @@ export default function Home() {
             <li><Link href='/JavaScriptForOf'>JavaScript For Of</Link></li>
             <li><Link href='/JavaScriptWhileLoop'>JavaScript While Loop</Link></li>
             <li><Link href='/JavaScriptBreakandContinue'>JavaScript Break and Continue</Link></li>
+            <li><Link href='/JavaScriptIterables'>JavaScript Iterables</Link></li>
             <li></li>
             <li></li>
             <li></li>
