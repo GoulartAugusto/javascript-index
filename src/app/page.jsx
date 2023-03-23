@@ -92,6 +92,7 @@ export default function Home() {
             <li><Link href='/JavaScriptBreakandContinue'>JavaScript Break and Continue</Link></li>
             <li><Link href='/JavaScriptIterables'>JavaScript Iterables</Link></li>
             <li><Link href='/JavaScriptSets'>JavaScript Sets</Link></li>
+            <li><Link href='/JavaScriptMaps'>JavaScript Maps</Link></li>
             <li></li>
             <li></li>
             <li></li>
