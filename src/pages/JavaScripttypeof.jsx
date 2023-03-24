@@ -180,13 +180,45 @@ const JavaScripttypeof = () => {
 
         <p>The <code style={{color:'blue'}}>typeof</code> operator returns "object" for objects, arrays, and null.</p>
 
-        <br />
-
         <p>The <code style={{color:'blue'}}>typeof</code> operator does not return "object" for functions.</p>
 
         <br />
 
-        
+        <div style={{background:'#cecece'}}>
+            <h3>Example</h3>
+
+            <code>
+                <code style={{color:'blue'}}>typeof</code> &#123;name: <code style={{color:'#5d0000'}}>'John'</code>, age <code style={{color:'red'}}>34</code>&#125; <code style={{color:'green'}}>// Return "object"</code>
+
+                <br />
+
+                <code style={{color:'blue'}}>typeof</code> [<code style={{color:'red'}}>1</code>, <code style={{color:'red'}}>2</code>, <code style={{color:'red'}}>3</code>, <code style={{color:'red'}}>4</code>] <code style={{color:'green'}}>// Return "object"</code>
+
+                <br />
+
+                <code style={{color:'blue'}}>typeof</code> <code style={{color:'blue'}}>null</code> <code style={{color:'green'}}>// Return "object"</code>
+
+                <br />
+
+                <code style={{color:'blue'}}>typeof</code> <code style={{color:'blue'}}>function</code> myFunc() &#123;&#125; <code style={{color:'green'}}>// Return "function"</code>
+            </code>
+        </div>
+
+        <br />
+
+        <div style={{background:'lightyellow'}}>
+            <br />
+
+            <p>The <code style={{color:'blue'}}>typeof</code> operator returns "<code style={{color:'blue'}}>object</code>" for arrays because in JavaScript arrays are objects.</p>
+
+            <br />
+        </div>
+
+        <br />
+
+        {/* Just a mark to separete sections */}
+
+        <h2>The Data Type of typeof</h2>
     </main>
   )
 }
