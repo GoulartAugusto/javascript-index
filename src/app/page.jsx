@@ -94,6 +94,7 @@ export default function Home() {
             <li><Link href='/JavaScriptSets'>JavaScript Sets</Link></li>
             <li><Link href='/JavaScriptMaps'>JavaScript Maps</Link></li>
             <li><Link href='/JavaScripttypeof'>JavaScript typeof</Link></li>
+            <li><Link href='/JavaScriptTypeConversion'>JavaScript Type Conversion</Link></li>
             <li></li>
             <li></li>
             <li></li>
