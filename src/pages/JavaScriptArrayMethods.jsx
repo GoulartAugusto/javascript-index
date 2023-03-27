@@ -9,11 +9,11 @@ const JavaScriptArrayMethods = () => {
 
         <h1>JavaScript Array Methods</h1>
         
-      {/* Just a mark to separete sections */}
+      {/* Just a mark to  sections */}
 
       <h2>Converting Arrays to Strings</h2>
 
-      <p>The JavaScript method <code style={{color:'red'}}>toString()</code> converts an array to a string of (commam separeted) array value.</p>
+      <p>The JavaScript method <code style={{color:'red'}}>toString()</code> converts an array to a string of (commam d) array value.</p>
 
       <br />
 
@@ -67,7 +67,7 @@ const JavaScriptArrayMethods = () => {
 
       <br />
 
-      {/* Just a mark to separete sections */}
+      {/* Just a mark to  sections */}
 
       <h2>Popping and Pushing</h2>
 
@@ -79,7 +79,7 @@ const JavaScriptArrayMethods = () => {
 
       <br />
 
-      {/* Just a mark to separete sections */}
+      {/* Just a mark to  sections */}
 
       <h2>JavaScript Array pop()</h2>
 
@@ -141,7 +141,7 @@ const JavaScriptArrayMethods = () => {
 
       <br />
 
-      {/* Just a mark to separete sections */}
+      {/* Just a mark to  sections */}
 
       <h2>JavaScript Array push()</h2>
 
@@ -203,7 +203,7 @@ const JavaScriptArrayMethods = () => {
 
       <br />
 
-      {/* Just a mark to separete sections */}
+      {/* Just a mark to  sections */}
 
       <h2>Shifting Elements</h2>
 
@@ -211,7 +211,7 @@ const JavaScriptArrayMethods = () => {
 
       <br />
 
-      {/* Just a mark to separete sections */}
+      {/* Just a mark to  sections */}
 
       <h2>JavaScript Array shift()</h2>
 
@@ -273,7 +273,7 @@ const JavaScriptArrayMethods = () => {
 
       <br />
 
-      {/* Just a mark to separete sections */}
+      {/* Just a mark to  sections */}
 
       <h2>JavaScript Array unshift()</h2>
 
@@ -335,7 +335,7 @@ const JavaScriptArrayMethods = () => {
 
       <br />
 
-      {/* Just a mark to separete sections */}
+      {/* Just a mark to  sections */}
 
       <h2>Changing Elements</h2>
 
@@ -384,7 +384,7 @@ const JavaScriptArrayMethods = () => {
 
       <br />
 
-      {/* Just a mark to separete sections */}
+      {/* Just a mark to  sections */}
 
       <h2>JavaScript Array length</h2>
 
@@ -417,7 +417,7 @@ const JavaScriptArrayMethods = () => {
       
       <br />
 
-      {/* Just a mark to separete sections */}
+      {/* Just a mark to  sections */}
 
       <h2>JavaScript Array delete()</h2>
 
@@ -466,7 +466,7 @@ const JavaScriptArrayMethods = () => {
 
       <br />
 
-      {/* Just a mark to separete sections */}
+      {/* Just a mark to  sections */}
 
       <h2>Merging (Concatenating) Arrays</h2>
 
@@ -568,7 +568,7 @@ const JavaScriptArrayMethods = () => {
 
       <br />
 
-      {/* Just a mark to separete sections */}
+      {/* Just a mark to  sections */}
 
       <h2>Splicing and Slicing Arrays</h2>
 
@@ -578,7 +578,7 @@ const JavaScriptArrayMethods = () => {
 
       <br />
 
-      {/* Just a mark to separete sections */}
+      {/* Just a mark to  sections */}
 
       <h2>JavaScript Array splice()</h2>
       
@@ -665,7 +665,7 @@ const JavaScriptArrayMethods = () => {
 
       <br />
 
-      {/* Just a mark to separete sections */}
+      {/* Just a mark to  sections */}
 
       <h2>Using splice() to Remove Elements</h2>
 
@@ -706,7 +706,7 @@ const JavaScriptArrayMethods = () => {
 
       <br />
 
-      {/* Just a mark to separete sections */}
+      {/* Just a mark to  sections */}
 
       <h2>JavaScript Array slice()</h2>
 
@@ -846,7 +846,7 @@ const JavaScriptArrayMethods = () => {
 
       <br />
 
-      {/* Just a mark to separete sections */}
+      {/* Just a mark to  sections */}
 
       <h2>Automatic toString()</h2>
 
@@ -912,7 +912,7 @@ const JavaScriptArrayMethods = () => {
 
       <br />
 
-      {/* Just a mark to separete sections */}
+      {/* Just a mark to  sections */}
 
       <h2>Finding Max and Min Values in an Array</h2>
 

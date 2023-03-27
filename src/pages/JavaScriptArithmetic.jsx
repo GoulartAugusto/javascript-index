@@ -59,7 +59,7 @@ const JavaScriptArithmetic = () => {
 
         <br />
 
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
 
 
         <h2>Arithmetic Operations</h2>
@@ -88,7 +88,7 @@ const JavaScriptArithmetic = () => {
 
         <br />
 
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
 
         <h2>Operators and Operands</h2>
 
@@ -115,7 +115,7 @@ const JavaScriptArithmetic = () => {
 
         <br />
 
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
 
         <h2>Adding</h2>
 
@@ -136,7 +136,7 @@ const JavaScriptArithmetic = () => {
         
         <br />
 
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
 
         <h2>Subtracting</h2>
 
@@ -157,7 +157,7 @@ const JavaScriptArithmetic = () => {
 
         <br />
 
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
 
         <h2>Dividing</h2>
 
@@ -178,7 +178,7 @@ const JavaScriptArithmetic = () => {
 
         <br />
 
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
 
         <h2>Remainder</h2>
 
@@ -207,7 +207,7 @@ const JavaScriptArithmetic = () => {
 
         <br />
 
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
 
         <h2>Incrementing</h2>
 
@@ -228,7 +228,7 @@ const JavaScriptArithmetic = () => {
 
         <br />
 
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
         
         <h2>Decrementing</h2>
 
@@ -249,7 +249,7 @@ const JavaScriptArithmetic = () => {
         
         <br />
 
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
 
         <h2>Exponentiation</h2>
 
@@ -283,7 +283,7 @@ const JavaScriptArithmetic = () => {
 
         <br />
 
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
 
 
         <h2>Operator Precedence</h2>

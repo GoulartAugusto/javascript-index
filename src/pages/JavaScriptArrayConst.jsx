@@ -9,7 +9,7 @@ const JavaScriptArrayConst = () => {
 
         <h1>JavaScript Array Const</h1>
 
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
 
         <h2>ECMAScript 2015 (ES6)</h2>
 
@@ -31,7 +31,7 @@ const JavaScriptArrayConst = () => {
 
         <br />
 
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
 
         <h2>Cannot be Reassigned</h2>
 
@@ -56,7 +56,7 @@ const JavaScriptArrayConst = () => {
 
         <br />
 
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
 
         <h2>Arrays are Not Constants</h2>
 
@@ -68,7 +68,7 @@ const JavaScriptArrayConst = () => {
 
         <br />
 
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
 
 
         <h2>Elements Can be Reassigned</h2>
@@ -119,7 +119,7 @@ const JavaScriptArrayConst = () => {
 
         <br />
 
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
 
         <h2>Browser Support</h2>
 
@@ -146,7 +146,7 @@ const JavaScriptArrayConst = () => {
 
         <br />
 
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
 
         <h2>Assigned when Declared</h2>
 
@@ -207,7 +207,7 @@ const JavaScriptArrayConst = () => {
 
         <br />
 
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
 
         <h2>Const Block Scope</h2>
 
@@ -295,7 +295,7 @@ const JavaScriptArrayConst = () => {
 
         <br />
 
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
 
         <h2>Redeclaring Arrays</h2>
 

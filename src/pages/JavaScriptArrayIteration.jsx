@@ -11,7 +11,7 @@ const JavaScriptArrayIteration = () => {
 
         <p>Array iteration methods operate on every array item.</p>
 
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
 
         <h2>JavaScript Array forEach()</h2>
 
@@ -115,7 +115,7 @@ const JavaScriptArrayIteration = () => {
 
         <br />
 
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
 
         <h2>JavaScript Array map()</h2>
 
@@ -205,7 +205,7 @@ const JavaScriptArrayIteration = () => {
 
         <br />
 
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
 
         <h2>JavaScript Array filter()</h2>
 
@@ -291,7 +291,7 @@ const JavaScriptArrayIteration = () => {
 
         <br />
 
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
 
         <h2>JavaSript Array reduce()</h2>
 
@@ -458,7 +458,7 @@ const JavaScriptArrayIteration = () => {
 
         <br />
 
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
 
         <h2>JavaScript Array reduceRight()</h2>
 
@@ -555,7 +555,7 @@ const JavaScriptArrayIteration = () => {
 
         <br />
 
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
 
         <h2>JavaScript Array every()</h2>
 
@@ -641,7 +641,7 @@ const JavaScriptArrayIteration = () => {
 
         <br />
 
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
 
         <h2>JavaScript Array some()</h2>
 
@@ -694,7 +694,7 @@ const JavaScriptArrayIteration = () => {
 
         <br />
 
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
         
         <h2>JavaScript Array indexOf()</h2>
 
@@ -753,7 +753,7 @@ const JavaScriptArrayIteration = () => {
 
         <br />
 
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
 
         <h2>JavaScript Array lastIndexOf()</h2>
 
@@ -798,7 +798,7 @@ const JavaScriptArrayIteration = () => {
 
         <br />
 
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
         
         <h2>JavaScript Array find()</h2>
 
@@ -858,7 +858,7 @@ const JavaScriptArrayIteration = () => {
 
         <br />
 
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
 
         <h2>JavaScript Array findIndex()</h2>
 
@@ -918,7 +918,7 @@ const JavaScriptArrayIteration = () => {
 
         <br />
         
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
 
         <h2>JavaScript Array.from()</h2>
 
@@ -960,7 +960,7 @@ const JavaScriptArrayIteration = () => {
 
         <br />
 
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
 
         <h2>JavaScript Array Keys()</h2>
 
@@ -1019,7 +1019,7 @@ const JavaScriptArrayIteration = () => {
 
         <br />
 
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
 
         <h2>Array entries()</h2>
 
@@ -1066,7 +1066,7 @@ const JavaScriptArrayIteration = () => {
 
         <br />
 
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
 
         <h2>JavaScript Array includes()</h2>
 

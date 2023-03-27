@@ -24,7 +24,7 @@ const JavaScriptArrays = () => {
 
         <br />
 
-      {/* Just a mark to separete sections */}
+      {/* Just a mark to  sections */}
 
         <h2>Why Use Arrays?</h2>
 
@@ -48,7 +48,7 @@ const JavaScriptArrays = () => {
 
         <br />
 
-      {/* Just a mark to separete sections */}
+      {/* Just a mark to  sections */}
 
         <h2>Creating an Array</h2>
 
@@ -138,7 +138,7 @@ const JavaScriptArrays = () => {
         
         <br />
 
-      {/* Just a mark to separete sections */}
+      {/* Just a mark to  sections */}
 
         <h2>Using the JavaScript Keyword new</h2>
 
@@ -172,7 +172,7 @@ const JavaScriptArrays = () => {
 
         <br />
 
-      {/* Just a mark to separete sections */}
+      {/* Just a mark to  sections */}
 
         <h2>Accessing Array Elements</h2>
 
@@ -212,7 +212,7 @@ const JavaScriptArrays = () => {
             <br />
         </div>
 
-      {/* Just a mark to separete sections */}
+      {/* Just a mark to  sections */}
 
         <h2>Changing an Array Element</h2>
 
@@ -253,7 +253,7 @@ const JavaScriptArrays = () => {
             <p>Opel,Volvo,BMW</p>
         </div>
 
-      {/* Just a mark to separete sections */}
+      {/* Just a mark to  sections */}
 
         <h2>Access the Full Array</h2>
 
@@ -281,7 +281,7 @@ const JavaScriptArrays = () => {
 
         <br />
 
-      {/* Just a mark to separete sections */}
+      {/* Just a mark to  sections */}
 
         <h2>Arrays are Objects</h2>
 
@@ -333,7 +333,7 @@ const JavaScriptArrays = () => {
 
         <br />
 
-      {/* Just a mark to separete sections */}
+      {/* Just a mark to  sections */}
 
         <h2>Array Elements Can Be Objects</h2>
 
@@ -359,7 +359,7 @@ const JavaScriptArrays = () => {
 
         <br />
 
-      {/* Just a mark to separete sections */}
+      {/* Just a mark to  sections */}
         
         <h2>Array Properties and Methods</h2>
 
@@ -377,7 +377,7 @@ const JavaScriptArrays = () => {
 
         <br />
 
-      {/* Just a mark to separete sections */}
+      {/* Just a mark to  sections */}
 
         <h2>The length Property</h2>
 
@@ -415,7 +415,7 @@ const JavaScriptArrays = () => {
 
         <br />
 
-      {/* Just a mark to separete sections */}
+      {/* Just a mark to  sections */}
 
         <h2>Accessing the First Array Element</h2>
 
@@ -441,7 +441,7 @@ const JavaScriptArrays = () => {
 
         <br />
 
-      {/* Just a mark to separete sections */}
+      {/* Just a mark to  sections */}
 
         <h2>Accessing the Last Array Element</h2>
 
@@ -469,7 +469,7 @@ const JavaScriptArrays = () => {
 
         <br />
 
-      {/* Just a mark to separete sections */}
+      {/* Just a mark to  sections */}
 
         <h2>Looping Array Elements</h2>
 
@@ -583,7 +583,7 @@ const JavaScriptArrays = () => {
 
         <br />
 
-      {/* Just a mark to separete sections */}
+      {/* Just a mark to  sections */}
 
         <h2>Adding Array Elements</h2>
 
@@ -679,7 +679,7 @@ const JavaScriptArrays = () => {
 
         <br />
 
-      {/* Just a mark to separete sections */}
+      {/* Just a mark to  sections */}
 
         <h2>Associative Arrays</h2>
         
@@ -779,7 +779,7 @@ const JavaScriptArrays = () => {
 
         <br />
 
-      {/* Just a mark to separete sections */}
+      {/* Just a mark to  sections */}
 
         <h2>The Difference Between Arrays and Objects</h2>
 
@@ -795,7 +795,7 @@ const JavaScriptArrays = () => {
 
         <br />
 
-      {/* Just a mark to separete sections */}
+      {/* Just a mark to  sections */}
 
         <h2>When to Use Arrays. When to use Objects.</h2>
 
@@ -807,7 +807,7 @@ const JavaScriptArrays = () => {
 
         <br />
 
-      {/* Just a mark to separete sections */}
+      {/* Just a mark to  sections */}
 
         <h2>JavaScript new Array()</h2>
 
@@ -946,7 +946,7 @@ const JavaScriptArrays = () => {
 
         <br />
 
-      {/* Just a mark to separete sections */}
+      {/* Just a mark to  sections */}
 
         <h2>How to Recognize an Array</h2>
 

@@ -60,7 +60,7 @@ const JavaScriptAssignment = () => {
 
         <br />
 
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
 
         <h2>Shift Assignment Operators</h2>
         
@@ -91,7 +91,7 @@ const JavaScriptAssignment = () => {
 
         <br />
 
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
 
         <h2>Bitwise Assignment Operators</h2>
         
@@ -124,7 +124,7 @@ const JavaScriptAssignment = () => {
         <br />
 
 
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
 
         <h2>Logical Assignment Operators</h2>
         
@@ -163,7 +163,7 @@ const JavaScriptAssignment = () => {
 
         <br />
 
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
 
         <h2>The = Operator</h2>
 
@@ -180,7 +180,7 @@ const JavaScriptAssignment = () => {
 
         <br />
 
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
 
         <h2>The += Operator</h2>
 
@@ -203,7 +203,7 @@ const JavaScriptAssignment = () => {
 
         <br />
 
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
 
         <h2>The -= Operator</h2>
 
@@ -221,7 +221,7 @@ const JavaScriptAssignment = () => {
 
         <br />
 
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
 
         <h2>The *= Operator</h2>
 
@@ -239,7 +239,7 @@ const JavaScriptAssignment = () => {
 
         <br />
 
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
 
         <h2>The **= Operator</h2>
 
@@ -257,7 +257,7 @@ const JavaScriptAssignment = () => {
 
         <br />
 
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
 
         <h2>The **= Operator</h2>
 
@@ -275,7 +275,7 @@ const JavaScriptAssignment = () => {
 
         <br />
 
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
 
         <h2>The %= Operator</h2>
 
@@ -293,7 +293,7 @@ const JavaScriptAssignment = () => {
 
         <br />
 
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
 
         <h2>The &lt;&lt;= Operator</h2>
 
@@ -311,7 +311,7 @@ const JavaScriptAssignment = () => {
 
         <br />
 
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
 
         <h2>The &gt;&gt;= Operator</h2>
 
@@ -329,7 +329,7 @@ const JavaScriptAssignment = () => {
 
         <br />
 
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
 
         <h2>The &gt;&gt;&gt;= Operator</h2>
 
@@ -347,7 +347,7 @@ const JavaScriptAssignment = () => {
 
         <br />
 
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
 
         <h2>The &= Operator</h2>
 
@@ -365,7 +365,7 @@ const JavaScriptAssignment = () => {
 
         <br />
 
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
 
         <h2>The |= Operator</h2>
 
@@ -383,7 +383,7 @@ const JavaScriptAssignment = () => {
 
         <br />
 
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
 
         <h2>The ^= Operator</h2>
 
@@ -401,7 +401,7 @@ const JavaScriptAssignment = () => {
 
         <br />
 
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
 
         <h2>The &&= Operator</h2>
 
@@ -426,7 +426,7 @@ const JavaScriptAssignment = () => {
 
         <br />
 
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
 
         <h2>The ||= Operator</h2>
 
@@ -453,7 +453,7 @@ const JavaScriptAssignment = () => {
 
         <br />
 
-        {/* Just a mark to separete sections */}
+        {/* Just a mark to  sections */}
 
         <h2>The ??= Operator</h2>
 
