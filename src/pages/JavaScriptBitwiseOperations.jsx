@@ -72,48 +72,84 @@ const JavaScriptBitwiseOperations = () => {
                 <th>Result</th>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>5 & 1</td>
+                <td>1</td>
+                <td>0101 & 0001</td>
+                <td>0001</td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>5 | 1</td>
+                <td>5</td>
+                <td>0101 | 0001</td>
+                <td>0101</td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>~ 5</td>
+                <td>10</td>
+                <td>~0101</td>
+                <td>1010</td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>5 &lt;&lt; 1</td>
+                <td>10</td>
+                <td>0101 &lt;&lt; 1</td>
+                <td>1010</td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>5 ^ 1</td>
+                <td>4</td>
+                <td>0101 ^ 0001</td>
+                <td>0100</td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>5 &gt;&gt; 1</td>
+                <td>2</td>
+                <td>0101 &gt;&gt; 1</td>
+                <td>0010</td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>5 &gt;&gt;&gt; 1</td>
+                <td>2</td>
+                <td>0101 &gt;&gt;&gt; 1</td>
+                <td>0010</td>
             </tr>
         </table>
+
+        <br />
+
+        {/* Just a mark to separete sections */}
+
+        <h2>JavaScript Uses 32 bits Bitwise Operands</h2>
+    
+        <p>JavaScript stores numbers as 64 bits floating point numbers, but all bitwise operations are performed on 32 bits binary numbers.</p>
+
+        <p>Before a bitwise operation is performed, JavaScript converts numbers to 32 bits signed integers.</p>
+
+        <p>After the bitwise operation is performed, the result is converted back to 64 bits JavaScript numbers.</p>
+
+        <br />
+
+        <div style={{background:"lightyellow"}}>
+            <br />
+
+            <p>The examples above uses 4 bits unsigned binary numbers. Because of this ~ 5 returns 10.</p>
+
+            <p>Since JavaScript uses 32 bits signed integers, it will not return 10. It will return -6.</p>
+
+            <p>00000000000000000000000000000101 (5)</p>
+
+            <p>11111111111111111111111111111010 (~5 = -6)</p>
+
+            <p>A signed integer uses the leftmost bit as the minus sign.</p>
+
+            <br />
+        </div>
+
+        <br />
+
+        {/* Just a mark to separete sections */}
+
+        <h2>JavaScript Bitwise AND</h2>
     </main>
   )
 }
