@@ -97,7 +97,7 @@ export default function Home() {
             <li><Link href='/JavaScriptTypeConversion'>JavaScript Type Conversion</Link></li>
             <li><Link href='/JavaScriptBitwiseOperations'>JavaScript Bitwise Operations</Link></li>
             <li><Link href='/JavaScriptRegularExpressions'>JavaScript Regular Expressions</Link></li>
-            <li></li>
+            <li><Link href='/JavaScriptOperatorPrecedence'>JavaScript Operator Precedence</Link></li>
             <li></li>
             <li></li>
             <li></li>
