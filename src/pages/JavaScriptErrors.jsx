@@ -152,6 +152,40 @@ const JavaScriptErrors = () => {
 
         <h2>The throw Statement</h2>
 
+        <p>The <code style={{color:'red'}}>throw</code> statement allows you to create a custom error.</p>
+        
+        <p>Technically you can <b>throe an exception (throw an error).</b></p>
+
+        <p>The exception can be a JavaScript <code style={{color:'red'}}>Script</code>, a <code style={{color:'red'}}>Number</code>, a <code style={{color:'red'}}>Boolean</code> or an <code style={{color:'red'}}>Object</code>:</p>
+
+        <br />
+
+        <div style={{background:"#cecece"}}>
+            <code>
+                <code style={{color:'blue'}}>throw</code> <code style={{color:'#5d0000'}}>"To big"</code>; <code style={{color:'green'}}>// throw a text</code>
+
+                <br />
+
+                <code style={{color:'blue'}}>throw</code> <code style={{color:'red'}}>500</code>; <code style={{color:'green'}}>// throw a number</code>
+            </code>
+        </div>
+
+        <br />
+
+        <p>If you use <code style={{color:'red'}}>throw</code> together with <code style={{color:'blue'}}>try</code> and <code style={{color:'blue'}}>catch</code>, you can control program flow and generate custom error messages.</p>
+
+        <br />
+
+        {/* Just a mark to separete sections */}
+
+        <h2>Input Validation Example</h2>
+
+        <p>This example examines inout. If the calue is wrong, an exception (err) is thrown.</p>
+
+        <p>The exception (err) is caught by the catch statement and a custom error message is displayed:</p>
+
+        <br />
+
         
     </main>
   )
