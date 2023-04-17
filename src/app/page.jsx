@@ -99,7 +99,7 @@ export default function Home() {
             <li><Link href='/JavaScriptRegularExpressions'>JavaScript Regular Expressions</Link></li>
             <li><Link href='/JavaScriptOperatorPrecedence'>JavaScript Operator Precedence</Link></li>
             <li><Link href='/JavaScriptErrors'>JavaScript Errors</Link></li>
-            <li></li>
+            <li><Link href='/JavaScriptScope'>JavaScript Scope</Link></li>
             <li></li>
             <li></li>
             <li></li>
