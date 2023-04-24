@@ -102,6 +102,7 @@ export default function Home() {
             <li><Link href='/JavaScriptScope'>JavaScript Scope</Link></li>
             <li><Link href='/JavaScriptHoisting'>JavaScript Hoisting</Link></li>
             <li><Link href='/JavaScriptUseStrict'>JavaScript Use Strict</Link></li>
+            <li><Link href='/TheJavaScriptthisKeyword'>The JavaScript this Keyword</Link></li>
             <li></li>
             <li></li>
           </ul>
