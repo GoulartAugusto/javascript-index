@@ -104,6 +104,7 @@ export default function Home() {
             <li><Link href='/JavaScriptUseStrict'>JavaScript Use Strict</Link></li>
             <li><Link href='/TheJavaScriptthisKeyword'>The JavaScript this Keyword</Link></li>
             <li><Link href='/JavaScriptArrowFunction'>JavaScript Arrow Function</Link></li>
+            <li><Link href='/JavaScriptClasses'>JavaScript Classes</Link></li>
             <li></li>
             <li></li>
           </ul>
