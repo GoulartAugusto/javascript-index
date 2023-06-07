@@ -359,7 +359,7 @@ const JavaScriptClasses = () => {
         
         <h2>Browser Support</h2>
 
-        <p>All versions of browsers since March 2016 haev full support for Classes in JavaScript.</p>
+        <p>All versions of browsers since March 2016 have full support for Classes in JavaScript.</p>
 
         <br />
     </main>
