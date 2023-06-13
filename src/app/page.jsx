@@ -106,6 +106,7 @@ export default function Home() {
             <li><Link href='/JavaScriptArrowFunction'>JavaScript Arrow Function</Link></li>
             <li><Link href='/JavaScriptClasses'>JavaScript Classes</Link></li>
             <li><Link href='/JavaScriptModules'>JavaScript Modules</Link></li>
+            <li><Link href='/JavaScriptJSON'>JavaScript JSON</Link></li>
             <li></li>
             <li></li>
           </ul>
