@@ -412,7 +412,7 @@ const JavaScriptStyleGuide = () => {
                 <br />
                 <br />
 
-                <code style={{color:"blue"}}>const</code> obj = getElementById(<code> style={{color:'#5d0000'}}"demo"</code>)
+                <code style={{color:"blue"}}>const</code> obj = getElementById(<code style={{color:'#5d0000'}}>"demo"</code>)
             </code>
         </div>
 

@@ -109,6 +109,7 @@ export default function Home() {
             <li><Link href='/JavaScriptJSON'>JavaScript JSON</Link></li>
             <li><Link href='/JavaScriptDebugging'>JavaScript Debugging</Link></li>
             <li><Link href='/JavaScriptStyleGuide'>JavaScript Style Guide</Link></li>
+            <li><Link href='/JavaScriptBestPractices'>JavaScript Best Practices</Link></li>
             <li></li>
             <li></li>
           </ul>
