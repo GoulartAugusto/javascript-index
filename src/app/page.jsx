@@ -110,6 +110,7 @@ export default function Home() {
             <li><Link href='/JavaScriptDebugging'>JavaScript Debugging</Link></li>
             <li><Link href='/JavaScriptStyleGuide'>JavaScript Style Guide</Link></li>
             <li><Link href='/JavaScriptBestPractices'>JavaScript Best Practices</Link></li>
+            <li><Link href='/JavaScriptCommonMistakes'>JavaScript Common Mistakes</Link></li>
             <li></li>
             <li></li>
           </ul>
