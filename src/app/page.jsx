@@ -112,7 +112,7 @@ export default function Home() {
             <li><Link href='/JavaScriptBestPractices'>JavaScript Best Practices</Link></li>
             <li><Link href='/JavaScriptCommonMistakes'>JavaScript Common Mistakes</Link></li>
             <li><Link href='/JavaScriptPerformance'>JavaScript Performance</Link></li>
-            <li></li>
+            <li><Link href='/JavaScriptReservedWords'>JavaScript Reserved Words</Link></li>
           </ul>
         </div>
 
