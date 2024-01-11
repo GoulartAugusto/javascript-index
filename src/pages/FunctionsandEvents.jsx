@@ -37,7 +37,7 @@ const FunctionsandEvents = () => {
 
         <p>Inserting this script on the head of a HTML document</p>
         <code>
-        &lt;script&gt; function myFunction() "{" document.getElementById(&quot;changed&quot;).innerHTML = &quot;Paragraph changed.&quot;; "}" &lt;/script&gt;
+        &lt;script&gt; function myFunction() &#123;"document.getElementById("changed").innerHTML = 'Paragraph changed.'; "&#125; &lt;/script&gt;
         </code>
         <br />
 

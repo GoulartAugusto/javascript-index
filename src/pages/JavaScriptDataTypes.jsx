@@ -296,7 +296,7 @@ const JavaScriptDataTypes = () => {
       </p>
 
       <p>
-        Real numbers (floating-piont):
+        Real numbers (floating-point):
         <br />
         float (32-bit), double (64-bit).
       </p>

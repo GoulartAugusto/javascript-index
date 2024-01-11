@@ -144,11 +144,11 @@ const JavaScriptStatements = () => {
         <code>
             function myFunction() &#123;
             <br />
-            document.getElementById(&quot;demo1&quot;).innerHTML = &quot;Hello Dolly!&quot;;
+            document.getElementById("demo1").innerHTML = "Hello Dolly!";
             <br />
-            document.getElementById(&quot;demo2&quot;).innerHTML = &quot;How are you?&quot;;
+            document.getElementById("demo2").innerHTML = "How are you?";
             <br />
-            &#x7D;
+            &#125;;
         </code>
 
         
